@@ -136,7 +136,7 @@ nav .navigation ul li a {
 
   color: #081682;
 
-  font-size: 16px;
+  font-size: 100%;
 
   font-weight: 500;
 
@@ -356,6 +356,7 @@ nav img {
 nav .navigation ul {
 
   display: flex;
+  font-size: 50%;
 
   justify-content: center;
 
@@ -388,7 +389,7 @@ nav .navigation ul li a {
 
   color: #081682;
 
-  font-size: 16px;
+  font-size: 20%;
 
   font-weight: 500;
 
@@ -467,6 +468,7 @@ nav .navigation ul li a:hover {
 
   display: flex;
   font-size-adjust: flex;
+  font-size: 50%;
 
   justify-content: center;
 
@@ -500,6 +502,6 @@ nav .navigation ul li a:hover {
 }
 @media (min-width: 330px) {
   .camada-1, .camada-2, .camada-3, .camada-4, .camada-5, .camada-6, .camada-7 {
-    width: 48%;
+    width: 100%;
   }
 }
